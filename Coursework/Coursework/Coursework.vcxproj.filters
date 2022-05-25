@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{b7391668-00da-4e05-b556-f8aabe3b3387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{ee6c4997-4df4-4edb-b98d-2e0d2f52aec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders\Depth">
+      <UniqueIdentifier>{6ad7b72f-632c-47a6-91ca-b62fe8f4e775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\Depth">
+      <UniqueIdentifier>{004e048f-f40f-468c-ba7f-040f76056912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Depth">
+      <UniqueIdentifier>{11359e8b-e893-42f4-8976-6edd80591209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\PostProcess">
+      <UniqueIdentifier>{8c3b9afe-35a4-4f78-abff-3ec7e7ec86b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\PostProcess">
+      <UniqueIdentifier>{daeae953-76ca-423c-a2dd-003d5ed7ca69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders\PostProcess">
+      <UniqueIdentifier>{2d28679a-bd53-46b3-af72-09a2695bd23d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LightA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files\Shaders\Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightDepthShader.cpp">
+      <Filter>Source Files\Shaders\Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalDepthShader.cpp">
+      <Filter>Source Files\Shaders\Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMaskShader.cpp">
+      <Filter>Source Files\Shaders\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="HorizontalBlurShader.cpp">
+      <Filter>Source Files\Shaders\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalBlurShader.cpp">
+      <Filter>Source Files\Shaders\PostProcess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LightA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files\Shaders\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightDepthShader.h">
+      <Filter>Header Files\Shaders\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalDepthShader.h">
+      <Filter>Header Files\Shaders\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="HorizontalBlurShader.h">
+      <Filter>Header Files\Shaders\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMaskShader.h">
+      <Filter>Header Files\Shaders\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalBlurShader.h">
+      <Filter>Header Files\Shaders\PostProcess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\texture_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\texture_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\light_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\light_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\height_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shadow_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shadow_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\normal_gs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\normal_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\normal_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\depth_ps.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\depth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\heightDepth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\horizontalBlur_ps.hlsl">
+      <Filter>Resource Files\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\verticalBlur_ps.hlsl">
+      <Filter>Resource Files\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\mouse_ps.hlsl">
+      <Filter>Resource Files\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\mouse_vs.hlsl">
+      <Filter>Resource Files\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\normalDepth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\normalDepth_gs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
